@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+
+    </div>
+    <script>
+        let elh=document.createElement("h1");
+        let elp=document.createElement("p");
+
+        let he=document.createTextNode("Rajan kumar");
+        let para=document.createTextNode("Hello from Rajan");
+
+        elh.appendChild(he);
+        elp.appendChild(para);
+        let divv=document.getElementById("main");
+        divv.appendChild(elh);
+        divv.appendChild(elp)
+        divv.style.backgroundColor="green";
+
+
+    </script>
+</body>
+</html>

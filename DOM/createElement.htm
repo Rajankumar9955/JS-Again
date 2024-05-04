@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+    </div>
+    <script>
+        // create element element create krta hai
+        // create texTNode message pass kr sakte hai
+        // append  Child ko parent pr value pass krte hai
+       /* let el=document.createElement("hi");
+        console.log(el)*/
+
+        // let tx=document.createTextNode("Raja kumar")
+        // console.log(tx);
+
+        let el=document.createElement("hi");
+        let tx=document.createTextNode("Rajan kumar");
+        let b=document.getElementById("main");
+        el.appendChild(tx);
+        b.appendChild(el);
+    //    console.log(el);
+    // document.write(el);
+    </script>
+</body>
+</html>
