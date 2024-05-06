@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- setattribute is a function jo do value ko except krta hai -->
+    <!-- remoteAttribute is a function jo 1 value ko except krta hai -->
+    <a id="anc">click me!</a>
+    <script>
+        let a = document.getElementById("anc");
+        a.setAttribute('href','htpps://www.google.com')
+    </script>
+
+
+
+
+     <img id="imgs" alt="">
+    <script>
+        let b = document.getElementById("imgs");
+        b.setAttribute('src','apple.png')
+    </script>
+
+
+
+    <h1 style="background-color: aqua;" id="head">Hi this is Rajan kumar</h1>
+    <script>
+        let c = document.getElementById("head");
+        c.removeAttribute('style')
+    </script>
+</body>
+</html>

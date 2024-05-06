@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- events perform actions -->
+
+    <button onclick="fun()">click me!</button>
+    <script>
+        function fun()
+        {
+            alert("This is working");
+        }
+    </script>
+
+    <button onclick="inp()">click here</button>
+    <script>
+        function inp()
+        {
+            let a=parseInt(prompt("enter first number:"));
+            let b=parseInt(prompt("enter second number:"));
+            let c=a+b;
+            console.log(c)
+            alert(c);
+        }
+    </script>
+
+    <button ondblclick="dbl()">click</button>
+    <script>
+        function dbl()
+        {
+        let n=parseInt(prompt("enter number"));
+        let v=n*n;
+        console.log(v);
+        alert(v);
+        }
+    </script>
+</body>
+</html>
