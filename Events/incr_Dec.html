@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="value">0</h1>
+<button onclick="inc()">Inc!</button>
+<button onclick="dec()">dec!</button>
+<button onclick="res()">reset!</button>
+
+    <script>
+        let value= document.getElementById("value")
+        let t=0;
+      function inc()
+      {
+        t++;
+        value.innerHTML=t;
+      }
+      function dec()
+      {
+       
+        if(t!=0)
+        {
+            t--;
+            value.innerHTML=t;
+        }
+       
+      }
+      function res()
+      {
+        t=0;
+        value.innerHTML=t;
+      }
+    </script>
+</body>
+</html>

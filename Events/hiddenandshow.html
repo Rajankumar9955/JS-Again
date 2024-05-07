@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main p{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: red;" onclick="fun()" id="main">
+        <h1>click here!</h1>
+        <p id="para">This is Rajan kumar</p>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Recusandae, quidem! Numquam, eum architecto illo reiciendis deleniti at! Cupiditate fugiat temporibus <br> accusamus delectus, corrupti quis provident expedita vel illum aut autem?</p>
+    </div>
+    <script>
+        let para = document.getElementById("para");
+        function fun()
+        {
+           para.style.display="block";
+        }
+    </script>
+</body>
+</html>
