@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .demo{
+            background-color: yellow;
+        }
+       </style>
+</head>
+<body>
+  <!-- use claslist for style remove and add -->
+  <!-- add ki add krne ke liye use krte hai -->
+  <!-- remove ki remove krne ke liye use krte hai -->
+  <!-- toggle ek baar true and ek bar false pr work krta hai -->
+
+
+   <div id="main">
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tempore eos aut, deleniti eius est, ipsum eaque impedit qui autem, vitae earum at itaque omnis cumque nostrum aliquam dolorum illo.</p>
+   </div>
+   <button onclick="fun()">click me!</button>
+
+   <button onclick="fun1()">remove me!</button>
+
+   <button onclick="fun2()">add & remove</button>
+
+   <script>
+
+      let di=document.getElementById("main");
+
+      function fun()
+      {
+        di.classList.add('demo')
+      }
+
+      function fun1()
+      {
+        di.classList.remove('demo')
+      }
+      
+      function fun2()
+      {
+        di.classList.toggle('demo')
+      }
+
+   </script>
+</body>
+</html>
