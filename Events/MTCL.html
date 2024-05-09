@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainn{
+            background-color: blue;
+            height: 97vh;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        #main
+        {
+            margin-top: 85px;
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            width:200px;
+            border: 2px solid black;
+            /* overflow-x: hidden; */
+            background-color: fuchsia;
+
+        }
+        #main button
+        {
+            margin-left: 30px;
+            /* padding: 35px 55px; */
+            margin-top: 35px;
+            font-size: 25px;
+            /* height: 200px; */
+            height: 150px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            
+        }
+        #main button:hover
+        {
+            background-color: aqua;
+            color: black;
+        }
+        #divv{
+               height: 400px;
+               width: 400px;
+               margin-left: 800px;
+               display: flex;
+        }
+        #divv img{
+           height: 400px;
+           width: 400px;
+           margin-top: 105px;
+           margin-left: -200px;
+           border-radius: 15px;
+           /* margin-top: -236px; */
+           /* background-origin: 1px solid black; */
+        }
+    </style>
+</head>
+<body>
+    <div id="mainn">
+    <div id="main">
+    <button onmouseenter="fun()" >Mobile</button>
+    <button onmouseenter="fun2()">Tablet</button>
+    <button onmouseenter="fun3()">Chair</button>
+    <button onmouseenter="fun4()">Laptop</button>
+    </div>
+    <div id="divv">
+        <img src="./Web.png" alt="" id="img">
+</div>
+</div>
+    <script>
+        let img = document.getElementById("img");
+        function fun()
+        {
+           img.src="web.png"
+        }
+       
+        function fun2()
+        {
+            img.src="tab.png"
+        }
+       
+        function fun3()
+        {
+            img.src="chair.png"
+        }
+       
+        function fun4()
+        {
+            img.src="laptop.png"
+        }
+       
+    </script>
+</body>
+</html>

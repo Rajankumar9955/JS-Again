@@ -7,15 +7,19 @@
 </head>
 <body>
     <div id="img" onmouseenter="fun()" onmouseleave="fun1()">
-         <p id="para">This is iphone</p>
+         <p id="para">This is iphone 15</p>
     </div>
     <style>
         #para
         {
             display: none;
-            margin-top: 350px;
+            margin-top: 300px;
             font-size: 25px;
+            margin-left: 25px;
             font-weight: bolder;
+            background-color: blue;
+            color: wheat;
+            height: 30px;
         }
         #img
         {  
@@ -24,6 +28,9 @@
             height: 400px;
             width: 400px;
             background-image:url('../DOM/apple.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
         }
     </style>
     <script>
