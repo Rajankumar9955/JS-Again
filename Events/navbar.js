@@ -1,5 +1,10 @@
-let a=document.getElementById("main")
+let n = document.getElementById('navbar')
 function fun()
 {
-    a.style.display="block";
+    n.classList.toggle('res')
+
+}
+function mode()
+{
+    document.body.classList.toggle('dark')
 }
