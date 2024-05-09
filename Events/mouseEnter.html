@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- code1 -->
+    <!-- ======================================= -->
+    <button onmouseenter="fun()">hover me!</button>
+    <button onmouseleave="fun1()">leave me!</button>
+    <button onmouseover="fun2()">over me!</button>
+<!-- =================================================== -->
+
+    <div onmouseenter="show()" id="main" onmouseleave="remove()">
+        <h1>click me</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem blanditiis soluta quisquam illum qui reprehenderit minima incidunt itaque quas at, quibusdam labore molestias atque quaerat necessitatibus dolore porro! At, vel.</p>
+    </div>
+<script>
+    let p=document.getElementById("para")
+    function show()
+    {
+        p.style.display="block"
+    }
+    function remove()
+    {
+        p.style.display="none"
+    }
+</script>
+
+<!-- code1 ===============-->
+<!-- ============================================================ -->
+    <script>
+        function fun()
+        {
+            alert("This is working")
+        }
+        function fun1(){
+            alert("this is working")
+        }
+        function fun2()
+        {
+            alert("this is working")
+        }
+    </script>
+    <!--================================================================== -->
+</body>
+</html>

@@ -7,45 +7,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<nav id="main" >
-    <div><img src="https://static.vecteezy.com/system/resources/previews/000/424/425/original/vector-web-icon.jpg" style="width: 30px;" width="30px" alt=""></div>
-    <ul id="mia" onclick="fun()">
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Contact</a></li>
-    <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
-</ul>
+    <ul id="mia">
+        <li><img src="https://static.vecteezy.com/system/resources/previews/000/424/425/original/vector-web-icon.jpg" style="width: 30px;" width="30px" alt=""></div></li>
+         <li id="barss">Home</li>
+         <li id="barss">About</li>
+         <li id="barss">Contact</li>
+         <li id="barss"><i class="fa-solid fa-bars" onclick="fun()"></i></li>
+    </ul>
 
-</nav>
 <style>
-    a{
-        text-decoration: none;
+    ul{
+        list-style-type: none;
     }
-    li{
-        text-decoration: none;
-    }
-    #main{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 20px;
-    }
-    #mia{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-    }
-#navb{
-    font-size: 25px;
+   #mia
+   {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#barss:hover{
+  background-color: bisque;
+  
 }
 </style>
-<script>
-    let main=document.getElementById("main")
-    function fun()
-    {
-        main.style.display="block"
-    }
-</script>
+<script src="navbar.js"></script>
 </body>
 </html>

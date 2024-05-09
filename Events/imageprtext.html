@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="img" onmouseenter="fun()" onmouseleave="fun1()">
+         <p id="para">This is iphone</p>
+    </div>
+    <style>
+        #para
+        {
+            display: none;
+            margin-top: 350px;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        #img
+        {  
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            width: 400px;
+            background-image:url('../DOM/apple.png');
+        }
+    </style>
+    <script>
+        let p = document.getElementById("para")
+        function fun()
+        {
+            p.style.display="block";
+        }
+        function fun1()
+        {
+            p.style.display="none";
+        }
+    </script>
+</body>
+</html>
