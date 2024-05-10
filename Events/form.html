@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #divv{
+        margin-top: 40px;
+        height: 40px;
+        width: 40px;
+        background-color: rgb(17, 255, 0);
+        border: 2px solid black;
+        padding: 10px 50px 10px;
+        margin-left:40%;
+        margin-top: 10px;
+        }
+        form{
+            margin-left:40%;
+            margin-top:200px ;
+        }
+    </style>
+</head>
+<body>
+    <form action="" onsubmit="fun(); return false";>
+        <label for="">Value2</label><br>
+        <input type="text" id="value1"><br>
+        <label for="">Value2</label><br>
+        <input type="text"  id="value2">
+        <input type="submit"><br>
+    </form>
+    <div id="divv">0</div>
+    <script>
+        let result=document.getElementById("divv")
+         function fun()
+         {
+            let a=parseInt(document.getElementById("value1").value);
+            let b=parseInt(document.getElementById("value2").value);
+            let c=a+b;
+             result.innerHTML=c;
+         }
+    </script>
+</body>
+</html>
