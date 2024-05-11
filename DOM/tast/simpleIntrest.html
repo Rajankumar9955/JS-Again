@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="simple(); return false">
+        <input type="text" placeholder="Enter priciple amount" id="prin"><br>
+        <input type="text" placeholder="Enter Intrest rate" id="intrest"><br>
+        <input type="text " placeholder="Enter time" id="time"><br>
+        <input type="submit"><br>
+    </form>
+    <h1 id="res">0</h1>
+    <script>
+        
+        function simple()
+        {
+            let re=document.getElementById("res")
+            let a=parseInt(document.getElementById("prin").value)
+            let b=parseInt(document.getElementById("intrest").value)
+            let c=parseInt(document.getElementById("time").value)
+            let d=a*b*c/100;
+            re.innerHTML=d;
+
+        }
+    </script>
+</body>
+</html>

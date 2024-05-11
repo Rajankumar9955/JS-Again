@@ -1,0 +1,27 @@
+<!--1. wAP TO  FIND AREA OF CIRCLE
+    2. wAP TO  FIND simple intrest  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="area(); return false" >
+        <input type="text" placeholder="Enter the r value" id="areaa">
+        <input type="submit" id="">
+    </form>
+    <div id="divv">0</div>
+    <script>
+        let a=document.getElementById("divv")
+         function area()
+         {
+            let c=parseInt(document.getElementById("areaa").value)
+            let b=3.14*c*c;
+            a.innerHTML=b;
+
+         }
+    </script>
+</body>
+</html>
