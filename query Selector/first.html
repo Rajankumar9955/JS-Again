@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is heading bro</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod necessitatibus repellendus dicta architecto corrupti ea, maiores assumenda aspernatur recusandae eaque suscipit nostrum quibusdam placeat accusamus rerum rem maxime voluptatem!</p>
+    <button id="btn">click me!</button>
+
+
+    <script>
+        let head=document.querySelector("h1")
+        head.style.backgroundColor="green";
+
+        let para=document.querySelector('.para')
+        para.style.backgroundColor="blue";
+
+        let btn=document.querySelector('#btn')
+        btn.style.backgroundColor="pink";
+
+        //addeventListener(evets,function()) pass krte hai
+        //type 1
+        btn.addEventListener("click",function(){
+           alert("clicked...!")
+         })
+
+         //type 2
+         btn.addEventListener("click",demo)
+         function demo()
+         {
+            alert("This is working");
+         }
+
+        //  type 3
+      btn,addEventListener("click",()=>{alert("clicked")})
+    </script>
+</body>
+</html>
