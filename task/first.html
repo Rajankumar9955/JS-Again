@@ -9,7 +9,7 @@
         #nava{
             height: 100px;
             width: 100%;
-            background-color: rgb(248, 240, 240);
+            /* background-color: rgb(248, 240, 240); */
              display: flex;
              justify-content: center;
              align-items: center;
@@ -28,7 +28,7 @@
                   gap: 20px;
                   margin-left: 50px;
                   list-style-type: none;
-                  color:blue;
+                  /* color:blue; */
         }   
       #unorder #burger
       {
@@ -36,15 +36,25 @@
       }
       #hero
       {
-        height: 79vh;
+        height: 75vh;
         width: 100%;
-        background-image: url('./R.jpeg');
+        /* background-image: url('./R.jpeg'); */
         background-size:cover ;
         background-repeat:no-repeat ;
       }
+      #hero img{
+        margin-top: 80px;
+        margin-left: 600px;
+        height: 400px;
+        width: 600px;
+        border-radius: 60px;
+        
+      }
       #hero #onedi{
-        margin-left: 50px;
-        margin-top: 150px;
+        margin-left:140px;
+        margin-top: -290px;
+        /* border: 2px solid black; */
+        width: 400px;
       }
     </style>
 </head>
@@ -61,6 +71,7 @@
         </ul>
     </nav>
     <div id="hero">
+           <img src="./R.jpeg" alt="">
         <div id="onedi">
           <h3>Best offer</h3>
           <h1>SUPER DEAL <br> BURGER</h1> 
