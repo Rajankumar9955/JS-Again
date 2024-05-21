@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="naaav">
+    <button id="btn" onclick="add()">Click here to add new button</button>
+    </div>
+    <script>
+        let create=document.createElement('button')
+        let text=document.createTextNode('click')
+        let btn=document.getElementById("btn")
+        let navv=document.getElementById('naaav')
+       
+        function add()
+        {
+          navv.appendChild('text')
+        }
+        let btn1=document.addEventListener("click",fun)
+        function fun()
+        {
+            alert("this is working");
+        }
+    </script>
+</body>
+</html>

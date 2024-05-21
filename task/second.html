@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      #unl{
+
+      }
+      #list{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        cursor: pointer;
+        list-style-type: none;
+      }
+</style>
+<body>
+    
+        <li id="list" onmouseover="fun()">OFF</li>
+        <li id="list" onmouseover="fun()">OFF</li>
+        <li id="list" onmouseover="fun()">OFF</li>
+        <li id="list" onmouseover="fun()">OFF</li>
+        <li id="list" onmouseover="fun()">OFF</li>
+
+    <script>
+        let a=document.getElementById('list')
+        let b="ON";
+        function fun()
+        {
+            a.innerHTML=b;
+            a.style.background="red"
+        }
+
+
+    </script>
+</body>
+</html>
