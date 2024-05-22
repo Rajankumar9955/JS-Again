@@ -6,24 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="naaav">
-    <button id="btn" onclick="add()">Click here to add new button</button>
-    </div>
-    <script>
-        let create=document.createElement('button')
-        let text=document.createTextNode('click')
-        let btn=document.getElementById("btn")
-        let navv=document.getElementById('naaav')
-       
-        function add()
-        {
-          navv.appendChild('text')
-        }
-        let btn1=document.addEventListener("click",fun)
-        function fun()
-        {
-            alert("this is working");
-        }
-    </script>
+  <button onclick="fun()">add new</button>
+  <div id="btn"></div>
+  <script>
+    function fun(){
+    let b=document.createElement("button")
+    let txt=document.createTextNode("New Button")
+    b.appendChild(txt)
+    let c=document.querySelector("#btn");
+    c.appendChild(b);
+    b.style.backgroundColor="teal";
+      b.style.padding="10px";
+      b.style.margin="10px";
+      b.style.fontSize="15px";
+    b.addEventListener("click",()=>{
+        alert("New button clicked")
+    })
+}
+  </script>
 </body>
 </html>
