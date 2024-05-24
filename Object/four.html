@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let ob={
+        namee:"Rajan",
+        city:"bpl",
+        age:20,
+        contact:9955236973,
+        address:["indore","canada"]
+    }
+    console.log(ob.address[1])
+
+
+//keys find 
+    let k=Object.keys(ob);
+    console.log(k[3])
+//delete
+    delete ob.namee
+    console.log(ob)
+
+//add
+    ob.money=40;
+    console.log(ob)
+
+//update
+ob.city="videsh";
+console.log(ob)
+   </script>
+</body>
+</html>
