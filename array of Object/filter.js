@@ -29,36 +29,7 @@ let emp=[
         designation:"student"
     }
 ]
-// console.log(emp[2].namee)
-// console.table(emp)
 
 
-let rr={
-        namee:"vikash",
-        age:29,
-        city:"parsauni ward 07",
-        contact:56543786,
-        designation:"farmer"
-    }
-
-
- let cc={
-    namee:"shivam",
-        age:39,
-        city:"bhopal",
-        contact:56543786,
-        designation:"student"
- }   
-// emp.push(rr)
-// console.log(emp)
-
-
-// emp.pop(rr)
-// console.log(emp)
-
-// emp.unshift(cc)
-// console.log(emp)
-
-emp.shift(cc)
-console.log(emp)
-
+let a=emp.filter((e)=>{return e.age>20})
+console.log(a)

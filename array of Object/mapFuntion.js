@@ -29,36 +29,23 @@ let emp=[
         designation:"student"
     }
 ]
-// console.log(emp[2].namee)
-// console.table(emp)
+
+// let arr=emp.map((e)=>{return e})
+// console.log(arr)
+
+// let rr=emp.map((r)=>{return r.namee})
+// console.log(rr)
+
+let a=emp.map((e)=>{return e.age*e.age})
+console.log(a)
 
 
-let rr={
-        namee:"vikash",
-        age:29,
-        city:"parsauni ward 07",
-        contact:56543786,
-        designation:"farmer"
-    }
+// let b=emp.map((e)=>{return e.city})
+// console.log(b)
 
 
- let cc={
-    namee:"shivam",
-        age:39,
-        city:"bhopal",
-        contact:56543786,
-        designation:"student"
- }   
-// emp.push(rr)
-// console.log(emp)
+// let c=emp((e)=>{return e.contact})
+// console.log(c)
 
-
-// emp.pop(rr)
-// console.log(emp)
-
-// emp.unshift(cc)
-// console.log(emp)
-
-emp.shift(cc)
-console.log(emp)
-
+// let d=emp.map((e)=>{return e.designation})
+// console.log(d)
