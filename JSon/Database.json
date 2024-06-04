@@ -1,0 +1,14 @@
+{
+    "product":[
+    {
+        "id":1,
+        "pr_name":"mobile",
+        "price":300000
+    },
+    {
+        "id":2,
+        "pr_name":"laptop",
+        "price":60000
+    }
+  ]
+}
