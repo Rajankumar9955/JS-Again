@@ -23,7 +23,7 @@ function add()
 
     }
 
-    fetch("",{
+    fetch("http://localhost:3000/product",{
         method:"post",
         headers:{
             'Content-type':'application/json',
