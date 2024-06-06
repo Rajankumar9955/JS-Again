@@ -8,11 +8,12 @@ async function fun()
           <td>${e.id}</td>
           <td>${e.pr_name}</td>
           <td>${e.price}</td>
+          <td><button onclick="mydelete(${e.id})">Delete</buttton></td>
     </tr>
     `).join("")
     Data.innerHTML=d
 }
-
+fun()
 
 function add()
 {
@@ -31,4 +32,9 @@ function add()
         body:JSON.stringify(frmdata)
     })
 }
-
+function mydelete(id){
+    fetch(`http://localhost:3000/product/${id}`,{
+        method:"Delete",
+    })
+    .then(res=>alert("Data Deleted Successfully"))
+}

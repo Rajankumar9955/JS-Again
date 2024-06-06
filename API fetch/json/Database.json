@@ -1,34 +1,19 @@
 {
   "product": [
     {
-      "id": "1",
-      "pr_name": "mobile",
-      "price": 300000
-    },
-    {
       "id": "2",
-      "pr_name": "laptop",
-      "price": 60000
-    },
-    {
-      "id": "10",
-      "pr_name": "app",
-      "price": "62306"
+      "pr_name": "apple",
+      "price": "2000000"
     },
     {
       "id": "12",
-      "pr_name": "apple",
-      "price": "30000"
-    },
-    {
-      "id": "42",
       "pr_name": "keyword ",
-      "price": "4000"
+      "price": "50000"
     },
     {
-      "id": "13",
-      "pr_name": "cooler",
-      "price": "5000"
+      "id": "10",
+      "pr_name": "laptop",
+      "price": "5000000"
     }
   ]
 }
