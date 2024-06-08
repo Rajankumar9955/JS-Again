@@ -6,15 +6,27 @@
     <title>Document</title>
 </head>
 <body>
+    <!--======= This is use in Table========================= -->
     <table border="">
         <thead>
            <center><th>ID</th></center> 
            <center><th>Product Name</th></center> 
            <center><th>Price</th></center> 
            <center><th>Delete</th></center>
+           <center><th>EDIT</th></center>
         </thead>
         <tbody id="Data"></tbody>
     </table>
+<!-- form form Edit section================== -->
+    <form action="" id="frmdata" style="display: none;">
+        <label for="">ID</label><br>
+        <input type="text" name="" id="id"><br>
+        <label for="">Product Name</label><br>
+        <input type="text" id="pr_name"><br>
+        <label for="">Price</label><br>
+        <input type="text" id="price"><br>
+        <input type="submit" onclick="EditForm()"><br>
+    </form>
    <!-- <center><button onclick="fun()">Get Data!</button></center>  -->
     <script src="fetch.js"></script>
 </body>

@@ -1,11 +1,6 @@
 {
   "product": [
     {
-      "id": "2",
-      "pr_name": "apple",
-      "price": "2000000"
-    },
-    {
       "id": "12",
       "pr_name": "keyword ",
       "price": "50000"
@@ -14,6 +9,11 @@
       "id": "10",
       "pr_name": "laptop",
       "price": "5000000"
+    },
+    {
+      "id": "11",
+      "pr_name": "apple",
+      "price": "5800000"
     }
   ]
 }
