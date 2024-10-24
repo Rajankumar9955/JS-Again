@@ -25,7 +25,6 @@ let v=Math.random()*9
 console.log(v)
 
 
-
 let r=Math.random()*9+1
 console.log(r)
 
