@@ -15,7 +15,6 @@
 // }
 
 
-
 function fun()
 {
     let a=document.getElementById("mains")
