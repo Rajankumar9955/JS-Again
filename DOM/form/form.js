@@ -83,6 +83,5 @@ function validate()
         alert("Doesn't match password")
         document.getElementById("cpass").focus()
         return false
-        
     }
 }
