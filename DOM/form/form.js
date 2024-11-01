@@ -7,6 +7,7 @@ function validate()
     let pass=document.getElementById('pass').value;
     let cpass=document.getElementById('cpass').value;
 
+    
     if(namee=="")
     {
         alert("Name is required")
