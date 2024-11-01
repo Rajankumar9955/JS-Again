@@ -43,7 +43,6 @@ console.log(a)
 // let b=emp.map((e)=>{return e.city})
 // console.log(b)
 
-
 // let c=emp((e)=>{return e.contact})
 // console.log(c)
 
