@@ -32,7 +32,6 @@ let emp=[
 // console.log(emp[2].namee)
 // console.table(emp)
 
-
 let rr={
         namee:"vikash",
         age:29,
